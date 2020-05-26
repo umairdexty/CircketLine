@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainCard1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginLeft="24dp"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/match_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/match_shedule"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/team_a_flag"
+                android:layout_width="32dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="@string/pakistan_logo"
+                android:src="@drawable/pakistan_flag" />
+
+
+            <TextView
+                android:id="@+id/team_a_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingEnd="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                tools:ignore="RtlSymmetry"
+                tools:text="Pakistan" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textStyle="bold"
+                tools:text="165-6(20)" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/team_b_flag"
+                android:layout_width="32dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="@string/pakistan_logo"
+                android:src="@drawable/indian_flag" />
+
+
+            <TextView
+                android:id="@+id/team_b_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingEnd="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                tools:ignore="RtlSymmetry"
+                tools:text="India" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textStyle="bold"
+                tools:text="156-7(20)" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            tools:text="Pakistan Won by 9 Run(s)"
+            android:textAlignment="center"
+            android:textColor="#4c8df5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@color/TabTextColor" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.umair.supercricketliveline.Home">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorHeight="3dp"
+        app:tabSelectedTextColor="@color/tabTextColorActive"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+        app:tabTextColor="@color/TabTextColor"
+        app:tabIndicatorColor="@color/colorAccent"
+        android:id="@+id/homeTabLayout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:id="@+id/inner_Linear_Layout_">
+
+
+
+        <ImageView
+            android:id="@+id/imageView2Home"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@drawable/ic_no_internet_connection"
+            />
+
+        <TextView
+            android:id="@+id/textViewHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="No Internet connection available"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_refresh_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Try Again"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/viewPagerHome"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:id="@+id/progressBarHome"/>
+
+</LinearLayout>

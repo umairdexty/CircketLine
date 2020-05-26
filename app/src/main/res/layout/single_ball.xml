@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_single_ball"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginEnd="1dp"
+    android:background="@drawable/magnitude_circle"
+    android:gravity="center"
+    android:textSize="10dp"
+    tools:text="0" />
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45442303387",
+    "firebase_url": "https://cricliveline-9b893.firebaseio.com",
+    "project_id": "cricliveline-9b893",
+    "storage_bucket": "cricliveline-9b893.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45442303387:android:9b4942cbde9b1576738d3e",
+        "android_client_info": {
+          "package_name": "com.dexty.cricketline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45442303387-02a4gb89bnba14k0juelu06n1n0tb498.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dexty.cricketline",
+            "certificate_hash": "a63bdcdc62377c4dd552aa363fb855eb19dda715"
+          }
+        },
+        {
+          "client_id": "45442303387-4rp6rqk72cf612f1f7u5d7k3db3cfloe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ny-sp7l20uhbvJv7SGphAsB71oOVQFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45442303387-4rp6rqk72cf612f1f7u5d7k3db3cfloe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

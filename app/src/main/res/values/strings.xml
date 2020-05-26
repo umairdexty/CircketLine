@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cricket Line</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="match_shedule">1st Match ,Group B ,Asia Cup 2018</string>
+    <string name="pakistan_logo">Logo</string>
+    <string name="overs">Overs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
